@@ -1,0 +1,25 @@
+.all-footer {
+  margin-top: 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+  height: 70px;
+  width: 50%;
+  margin-left: 25%;
+  border-top: 2px solid rgb(169, 173, 175);
+  box-sizing: border-box;
+}
+
+.footer-name {
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  width: 800px;
+}
+
