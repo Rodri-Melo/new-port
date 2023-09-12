@@ -4,9 +4,8 @@ import '../styles/Skills.css';
 export function Skills() {
   return (
     <>
-      <h2 className='title-skill'> Skills </h2>
-      <h2 className='abilities'> Habilidades </h2>
       <div className='all-skills'>
+        <h2 className='abilities'> Habilidades </h2>
         <div className='skills'>
           <div className='skill-item'>
             <svg className='skill-icon'>

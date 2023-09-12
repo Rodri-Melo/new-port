@@ -20,7 +20,7 @@ export default function Page() {
         <section id="skills">
           <Skills />
         </section>
-        <section id="projects">
+        <section id="project">
           <Project />
         </section>
         <section id="contact">

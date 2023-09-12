@@ -3,8 +3,8 @@ import '../styles/Project.css'
 export function Project() {
   return (
     <>
-      <h2 className='project-title'> Projetos </h2>
       <div className='all-project'>
+        <h2 className='project-title'> Projetos </h2>
         <div className="project">
           <img
             className="project-image"

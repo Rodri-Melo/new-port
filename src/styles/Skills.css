@@ -1,19 +1,25 @@
+.all-skills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .skills {
   width: 800px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: rgb(201, 200, 200);
+  border: 2px solid rgb(0, 153, 255);
+  border-radius: 18px;
 }
 
 .title-skill {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
-  font-size: 40px;
   width: 400px;
-  margin-left: 470px;
-  color: grey;
+  color: white;
   font-size: 120px;
 }
 
@@ -21,13 +27,11 @@
   display: flex;
   justify-content: center;
   color: rgb(0, 153, 255);
-  margin-left: 480px;
-  font-size: 65px;
-  font-weight: 700;
-  border-bottom: 2px grey solid;
-  position: absolute;
-  z-index: 1;
-  margin-top: -130px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 100px;
 }
 
 .skill-item,
@@ -48,7 +52,7 @@
 .skill-icon {
   width: 50px;
   height: 50px;
-  border: 1px white solid;
+  border: 2px rgb(14, 14, 66) solid;
   background-color: rgb(59, 59, 56);
   padding: 10px;
   border-radius: 18px;
@@ -62,10 +66,5 @@
 
 .skill-name {
   margin-top: 5px;
-}
-
-.all-skills {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 80px;
+  font-weight: 700;
 }

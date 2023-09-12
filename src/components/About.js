@@ -26,17 +26,12 @@ export function About() {
             hoje desenvolvendo meus próprios projetos eu sinto que encontrei o que realmente quero fazer.
             <br></br>
             <br></br>
-            Mergulhei de cabeça nesse universo cativante, aprendendo linguagens de programação e
-            explorando
-            frameworks modernos, como o <span className="highlighted-text">React</span> e o
-            <span className="highlighted-text">Node.js</span>.
-            A medida que me aprofundava, percebia que a programação
+            Mergulhei de cabeça nesse universo cativante, aprendendo linguagens de programação e explorando 
+            tecnologias modernas e poderosas, como <span className="highlighted-text"> React</span> e
+            <span className="highlighted-text"> Node.js</span>.
+            À medida que me aprofundava, percebia que a programação
             não era apenas uma habilidade, mas uma verdadeira paixão que me inspirava e motivava a criar
             mais e mais.
-            <br></br>
-            <br></br>
-            Quando não estou codificando, você pode me encontrar jogando alguma coisa, conversando com
-            amigos ou assistindo futebol.
           </p>
         ) : (
           <p className="about-text">
@@ -46,10 +41,9 @@ export function About() {
             <br></br>
             <br></br>
             Continuo aprimorando minhas habilidades e me desafiando diariamente através de projetos
-            pessoais. Atualmente, estou criando de um jogo de RPG com batalhas em turnos, projeto esse que
-            é um reflexo da minha empolgação com o mundo dos jogos, é bem desafiador criar tudo do zero e
-            isso tem despertado minha imaginação e criatividade além de me ajudar a crescer em cada etapa
-            do projeto.
+            pessoais. Atualmente, minha rotina de estudos, costumo criar projetos pessoais para treinar,
+            e acho incrivel o quanto eu consigo aprender melhor quando estou criando algo desafiador 
+            e que tenho interesse.
             <br></br>
             <br></br>
             Também estou aprendendo Java para expandir minha compreensão sobre desenvolvimento de software

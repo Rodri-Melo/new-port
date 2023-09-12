@@ -1,7 +1,6 @@
 import '../styles/Footer.css'
 
 export function Footer() {
-
   return (
     <div className='all-footer'>
       <div className="footer">
