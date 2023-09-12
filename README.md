@@ -2,4 +2,4 @@
 
 ## Descrição
 
-Meu Portfolio feito em Next.Js, disponivel no link : https://portfolio-rodri-neves.vercel.app/
+Meu Portfolio feito em Next.Js, disponivel no link : https://new-portfolio-version.vercel.app/
