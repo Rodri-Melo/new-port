@@ -1,0 +1,112 @@
+.all-project {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project {
+  border: 2px rgb(59, 59, 56) solid;
+  border-radius: 18px;
+  height: 350px;
+  width: 400px;
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  transition: transform 1s; 
+  background-color: rgb(59, 59, 56);
+}
+
+.project:hover {
+  transform: scale(1.1);
+}
+
+.project-title {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(0, 153, 255);
+  width: 350px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.project-skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  color: white;
+  font-size: 120px;
+}
+
+.btn-github {
+  border-radius: 7px;
+  width: 70px;
+  height: 30px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgb(0, 153, 255);
+  color: black;
+  font-weight: 500;
+}
+
+.btn-github:hover {
+  color: black;
+  font-weight: 500;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px; 
+}
+
+.project-name {
+  position: relative;
+  top: 25px;
+  font-size: 22px;
+  font-weight: 800;
+  color: white;
+  text-decoration: underline;
+}
+
+.project-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 300px;
+  margin-top: 10px;
+  font-weight: 500;
+  color: white;
+}
+
+.project-image {
+  position: relative;
+  top: 25px;
+  height: 280px;
+  width: 340px;
+  border-radius: 10px;
+}
+
+.project-image1 {
+  position: relative;
+  top: 35px;
+  height: 180px;
+  width: 340px;
+  border-radius: 10px;
+}

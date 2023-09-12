@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 70px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 800;
+  border-bottom: 2px solid rgb(218, 215, 215);
+  background-color: white;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  z-index: 2;
+}
+
+.header-scroll {
+  background-color: white;
+}
+
+.name-header {
+  margin-right: auto;
+  font-size: 22px;
+  font-style: italic;
+  color: rgb(14, 14, 66);
+}
+
+.name-header:hover {
+  transform: scale(1.1) rotate(-5deg);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-header {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(14, 14, 66, 0.884);
+}
+
+.btn-header:hover {
+  color: rgb(14, 14, 66);
+}
+
+.btn-header.active {
+  border-bottom: 2px solid rgb(0, 153, 255);
+  background-color: rgb(255, 255, 255);
+  color: rgba(14, 14, 66);
+  border-radius: 0px;
+}
+
